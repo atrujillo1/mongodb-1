@@ -362,7 +362,7 @@ db.users2.find({pais: { $ne: 'Germany' }})
 db.users2.find({
     $and: [
         { ciudad: 'London' },
-        {60+
+        {
 
             $or: [
                 { salario: { $gt: 2500 } }, 
